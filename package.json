@@ -12,6 +12,5 @@
   },
   "engines": {
     "node": "8.9.0"
-  },
-  "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
+  }
 }
