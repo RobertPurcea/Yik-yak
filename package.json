@@ -2,15 +2,12 @@
   "name": "rando",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "RobertPurcea <RobertPurcea@yahoo.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "express": "^4.16.2",
-    "password-generator": "^2.2.0"
+    "express": "^4.16.2"
   },
-  "engines": {
-    "node": "8.9.0"
+  "scripts": {
+    "start": "nodemon ./bin/www"
   }
 }
